@@ -1,0 +1,694 @@
+[
+  {
+    "query_id": "q01",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "risk definition AI RMF",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p38_c02"
+        ],
+        "context_chars": 678
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "risk definition AI RMF context",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p38_c02"
+        ],
+        "context_chars": 678
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "risk definition AI RMF context",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p38_c02"
+        ],
+        "context_chars": 678
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "risk definition AI RMF",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p38_c02"
+        ],
+        "context_chars": 678
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 6996.378699986963
+  },
+  {
+    "query_id": "q02",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "characteristics of trustworthy AI systems AI RMF",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p17_c01"
+        ],
+        "context_chars": 753
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p17_c01"
+    ],
+    "answer": "The AI RMF articulates several characteristics of trustworthy AI systems, which include being valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. It emphasizes that creating trustworthy AI requires balancing these characteristics based on the AI system’s context of use [nist_ai_rmf_1_0_B_p17_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p17_c01 | data/NIST_AI_100_1.pdf | page 17]\n3. AI Risks and Trustworthiness For AI systems to be trustworthy, they often need to be responsive to a multiplicity of cri- teria that are of value to interested parties. Approaches which enhance AI trustworthiness can reduce negative AI risks. This Framework articulates the following characteristics of trustworthy AI and offers guidance for addressing them. Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and trans- parent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. Creating trustworthy AI requires balancing each of these characteristics based on the AI system’s context of use.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p17_c01"
+    ],
+    "elapsed_ms": 4383.490000007441
+  },
+  {
+    "query_id": "q03",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "ISO 9000:2015 validation process definition",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p33_c03"
+        ],
+        "context_chars": 736
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[nist_ai_rmf_1_0_B_p33_c03 | data/NIST_AI_100_1.pdf | page 33]\nOptions may include recalibration, impact mitigation, or removal of the system from design, development, production, or use, as well as a range of compensating, detective, deterrent, directive, and recovery controls. After completing the MEASURE function, objective, repeatable, or scalable test, evaluation, verification, and validation (TEVV) processes including metrics, methods, and methodolo- gies are in place, followed, and documented. Metrics and measurement methodologies should adhere to scientific, legal, and ethical norms and be carried out in an open and trans- parent process. New types of measurement, qualitative and quantitative, may need to be developed.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p33_c03"
+    ],
+    "elapsed_ms": 2766.3084999949206
+  },
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "ISO/IEC TS 5723:2022 AI system safety conditions",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p19_c03"
+        ],
+        "context_chars": 625
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p19_c03"
+    ],
+    "answer": "An AI system is considered safe according to ISO/IEC TS 5723:2022 if it does not, under defined conditions, lead to a state in which human life, health, property, or the environment is endangered. This emphasizes the importance of measuring validity, accuracy, robustness, and reliability to contribute to trustworthiness and minimize potential negative impacts [nist_ai_rmf_1_0_B_p19_c03].",
+    "context": "[nist_ai_rmf_1_0_B_p19_c03 | data/NIST_AI_100_1.pdf | page 19]\nMeasurement of validity, accuracy, robustness, and reliability contribute to trustworthiness and should take into con- sideration that certain types of failures can cause greater harm. AI risk management efforts should prioritize the minimization of potential negative impacts, and may need to include human intervention in cases where the AI system cannot detect or correct errors. 3.2 Safe AI systems should “not under defined conditions, lead to a state in which human life, health, property, or the environment is endangered” (Source: ISO /IEC TS 5723:2022).",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p19_c03"
+    ],
+    "elapsed_ms": 4112.888900010148
+  },
+  {
+    "query_id": "q05",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "transparency individuals interacting with AI system NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c03"
+        ],
+        "context_chars": 686
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "transparency individuals interacting with AI system NIST AI RMF 1.0 definition",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c03"
+        ],
+        "context_chars": 686
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "transparency in AI systems NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c03"
+        ],
+        "context_chars": 686
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "transparency in AI systems impact on individuals NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c03"
+        ],
+        "context_chars": 686
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 7046.7495000048075
+  },
+  {
+    "query_id": "q06",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "three major categories of AI bias NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p23_c03"
+        ],
+        "context_chars": 342
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "three categories of AI bias NIST Special Publication 1270",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p23_c03"
+        ],
+        "context_chars": 342
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "three categories of AI bias NIST Special Publication 1270",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p23_c03"
+        ],
+        "context_chars": 342
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "three categories of AI bias NIST Special Publication 1270",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p23_c03"
+        ],
+        "context_chars": 342
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 6347.255600005155
+  },
+  {
+    "query_id": "q07",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "organizational policies processes GOVERN 1 category NIST AI RMF 1.0",
+        "filter": {
+          "section": "govern"
+        },
+        "results_count": 3,
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "GOVERN 1 category organizational policies processes NIST AI RMF 1.0",
+        "filter": {
+          "section": "govern"
+        },
+        "results_count": 3,
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "GOVERN 1 category organizational policies processes NIST AI RMF 1.0",
+        "filter": {
+          "section": "govern"
+        },
+        "results_count": 3,
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "GOVERN 1 category organizational policies processes NIST AI RMF 1.0",
+        "filter": {
+          "section": "govern"
+        },
+        "results_count": 3,
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 6281.759100005729
+  },
+  {
+    "query_id": "q08",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "AI RMF Core functions",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p25_c01"
+    ],
+    "answer": "The four functions that compose the AI RMF Core are GOVERN, MAP, MEASURE, and MANAGE [nist_ai_rmf_1_0_B_p25_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p25_c01 | data/NIST_AI_100_1.pdf | page 25]\nPart 2: Core and Profiles 5. AI RMF Core The AI RMF Core provides outcomes and actions that enable dialogue, understanding, and activities to manage AI risks and responsibly develop trustworthy AI systems. As illus- trated in Figure 5, the Core is composed of four functions: GOVERN , MAP, MEASURE , and MANAGE . Each of these high-level functions is broken down into categories and sub- categories. Categories and subcategories are subdivided into specific actions and outcomes. Actions do not constitute a checklist, nor are they necessarily an ordered set of steps. Fig. 5. Functions organize AI risk management activities at their highest level to govern, map, measure, and manage AI risks.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p25_c01"
+    ],
+    "elapsed_ms": 3150.8423000050243
+  },
+  {
+    "query_id": "q09",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "inability to measure AI risks low risk high risk NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p10_c01"
+        ],
+        "context_chars": 715
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p10_c01"
+    ],
+    "answer": "The inability to appropriately measure AI risks does not imply that an AI system necessarily poses either a high or low risk. This indicates that the measurement challenges do not correlate directly with the inherent risk level of the AI system itself [nist_ai_rmf_1_0_B_p10_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p10_c01 | data/NIST_AI_100_1.pdf | page 10]\nFig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their responsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems. 1.2 Challenges for AI Risk Management Several challenges are described below. They should be taken into account when managing risks in pursuit of AI trustworthiness. 1.2.1 Risk Measurement AI risks or failures that are not well-defined or adequately understood are difficult to mea- sure quantitatively or qualitatively. The inability to appropriately measure AI risks does not imply that an AI system necessarily poses either a high or low risk.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p10_c01"
+    ],
+    "elapsed_ms": 3455.322399997385
+  },
+  {
+    "query_id": "q10",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "transparency accuracy security fairness AI system NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c02"
+        ],
+        "context_chars": 613
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "transparency does not guarantee accuracy security fairness AI system NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c02"
+        ],
+        "context_chars": 613
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "transparency does not guarantee accuracy security fairness AI system NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c02"
+        ],
+        "context_chars": 613
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "transparency does not guarantee accuracy security fairness AI system NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c02"
+        ],
+        "context_chars": 613
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 7251.789899979485
+  },
+  {
+    "query_id": "q11",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "MAP 1 category AI RMF Core focus",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "MAP 1 category AI RMF Core focus details",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "MAP 1 category AI RMF Core focus details",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "MAP 1 category AI RMF Core focus details",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 6995.100100000855
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "explainability interpretability AI RMF 1.0",
+        "filter": {
+          "section": "trustworthy_characteristics"
+        },
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p22_c01"
+        ],
+        "context_chars": 770
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p22_c01"
+    ],
+    "answer": "The AI RMF distinguishes explainability from interpretability by defining them in relation to different questions they answer. Explainability addresses 'how' a decision was made in the system, while interpretability answers 'why' a decision was made and provides its meaning or context to the user. Transparency, explainability, and interpretability are distinct yet supportive characteristics of AI systems [nist_ai_rmf_1_0_B_p22_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p22_c01 | data/NIST_AI_100_1.pdf | page 22]\nRisks to interpretability often can be addressed by communicating a description of why an AI system made a particular prediction or recommendation. (See “Four Principles of Explainable Artificial Intelligence” and “Psychological Foundations of Explainability and Interpretability in Artificial Intelligence” found here.) Transparency, explainability, and interpretability are distinct characteristics that support each other. Transparency can answer the question of “what happened” in the system. Ex- plainability can answer the question of “how” a decision was made in the system. Inter- pretability can answer the question of “why” a decision was made by the system and its meaning or context to the user.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p22_c01"
+    ],
+    "elapsed_ms": 4696.481399994809
+  },
+  {
+    "query_id": "q13",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "AI RMF use-case profiles implementation",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p38_c02"
+        ],
+        "context_chars": 678
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p38_c02"
+    ],
+    "answer": "AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories tailored for specific settings or applications. They are based on the requirements, risk tolerance, and resources of the Framework user. For example, there could be an AI RMF hiring profile or an AI RMF fair housing profile. These profiles illustrate and provide insights into managing risk at various stages of the AI lifecycle or within specific sectors, technologies, or end-use applications [nist_ai_rmf_1_0_B_p38_c02].",
+    "context": "[nist_ai_rmf_1_0_B_p38_c02 | data/NIST_AI_100_1.pdf | page 38]\nProcesses for track- ing, responding to, and recovering from incidents and errors are followed and documented. Categories Subcategories 6. AI RMF Profiles AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user: for example, an AI RMF hiring profile or an AI RMF fair housing profile. Profiles may illustrate and offer insights into how risk can be managed at various stages of the AI lifecycle or in specific sector, technology, or end-use applications.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p38_c02"
+    ],
+    "elapsed_ms": 4437.35170000582
+  },
+  {
+    "query_id": "q14",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "legal and regulatory requirements GOVERN 1.1 NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p28_c01"
+        ],
+        "context_chars": 693
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "GOVERN 1.1 legal and regulatory requirements NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p28_c01"
+        ],
+        "context_chars": 693
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "GOVERN 1.1 legal and regulatory requirements NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p28_c01"
+        ],
+        "context_chars": 693
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "GOVERN 1.1 actions legal regulatory requirements NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p28_c01"
+        ],
+        "context_chars": 693
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 6557.257199980086
+  },
+  {
+    "query_id": "q15",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "AI RMF organization risk tolerance definition",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p12_c01"
+        ],
+        "context_chars": 793
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p12_c01"
+    ],
+    "answer": "The AI RMF defines risk tolerance as the organization’s or AI actor’s readiness to bear risk in order to achieve its objectives. It emphasizes that risk tolerance is influenced by legal or regulatory requirements and is highly contextual, being specific to the application and use-case. Additionally, it can be shaped by policies and norms established by various stakeholders and is likely to change over time as AI systems and associated policies evolve [nist_ai_rmf_1_0_B_p12_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p12_c01 | data/NIST_AI_100_1.pdf | page 12]\n1.2.2 Risk Tolerance While the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance. Risk tolerance refers to the organization’s or AI actor’s (see Appendix A) readiness to bear the risk in order to achieve its objectives. Risk tolerance can be influenced by legal or regula- tory requirements (Adapted from: ISO GUIDE 73). Risk tolerance and the level of risk that is acceptable to organizations or society are highly contextual and application and use-case specific. Risk tolerances can be influenced by policies and norms established by AI sys- tem owners, organizations, industries, communities, or policy makers. Risk tolerances are likely to change over time as AI systems, policies, and norms evolve.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p12_c01"
+    ],
+    "elapsed_ms": 4279.28299998166
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "maximum monetary fine non-compliance private corporations NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c02"
+        ],
+        "context_chars": 613
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[nist_ai_rmf_1_0_B_p08_c02 | data/NIST_AI_100_1.pdf | page 8]\nAdditional resources related to the Framework are included in the AI RMF Playbook, which is available via the NIST AI RMF website: https://www.nist.gov/itl/ai-risk-management-framework. Development of the AI RMF by NIST in collaboration with the private and public sec- tors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the National Security Commission on Artificial Intelligence recom- mendations, and the Plan for Federal Engagement in Developing Technical Standards and Related Tools.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p08_c02"
+    ],
+    "elapsed_ms": 2525.5032000131905
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "minimum parameter count compute threshold FLOPs high-risk foundation model AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p10_c01"
+        ],
+        "context_chars": 715
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[nist_ai_rmf_1_0_B_p10_c01 | data/NIST_AI_100_1.pdf | page 10]\nFig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their responsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems. 1.2 Challenges for AI Risk Management Several challenges are described below. They should be taken into account when managing risks in pursuit of AI trustworthiness. 1.2.1 Risk Measurement AI risks or failures that are not well-defined or adequately understood are difficult to mea- sure quantitatively or qualitatively. The inability to appropriately measure AI risks does not imply that an AI system necessarily poses either a high or low risk.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p10_c01"
+    ],
+    "elapsed_ms": 2596.505299996352
+  }
+]

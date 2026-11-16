@@ -1,0 +1,150 @@
+{
+  "dev_baseline": {
+    "cases": 17,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 17,
+      "N": 17
+    },
+    "grounded_answer": {
+      "0": 8,
+      "1": 1,
+      "2": 6,
+      "N": 15,
+      "mean": 0.8666666666666667
+    },
+    "citation_validity": {
+      "n": 7,
+      "N": 7
+    },
+    "answer_citation_coverage": {
+      "n": 7,
+      "N": 7
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 8,
+      "N": 15
+    },
+    "config": "Baseline (TF-IDF + LLM, budget=800)",
+    "budget_chars": 800,
+    "prompt_tokens": 28249,
+    "completion_tokens": 1952,
+    "cost_usd": 0.00541,
+    "median_latency_ms": 4437.4
+  },
+  "dev_chosen": {
+    "cases": 17,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 17,
+      "N": 17
+    },
+    "grounded_answer": {
+      "0": 3,
+      "1": 2,
+      "2": 10,
+      "N": 15,
+      "mean": 1.4666666666666666
+    },
+    "citation_validity": {
+      "n": 18,
+      "N": 18
+    },
+    "answer_citation_coverage": {
+      "n": 13,
+      "N": 13
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 2,
+      "N": 15
+    },
+    "config": "Chosen Config (Hybrid RRF + LLM, budget=1600)",
+    "budget_chars": 1600,
+    "prompt_tokens": 26910,
+    "completion_tokens": 2700,
+    "cost_usd": 0.00566,
+    "median_latency_ms": 5542.6
+  },
+  "test_baseline": {
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 2,
+      "1": 0,
+      "2": 3,
+      "N": 5,
+      "mean": 1.2
+    },
+    "citation_validity": {
+      "n": 3,
+      "N": 3
+    },
+    "answer_citation_coverage": {
+      "n": 3,
+      "N": 3
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 2,
+      "N": 5
+    },
+    "config": "Baseline (TF-IDF + LLM, budget=800) [Test]",
+    "budget_chars": 800,
+    "prompt_tokens": 10652,
+    "completion_tokens": 799,
+    "cost_usd": 0.00208,
+    "median_latency_ms": 3887.3
+  },
+  "test_chosen": {
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 0,
+      "1": 1,
+      "2": 4,
+      "N": 5,
+      "mean": 1.8
+    },
+    "citation_validity": {
+      "n": 5,
+      "N": 5
+    },
+    "answer_citation_coverage": {
+      "n": 5,
+      "N": 5
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 5
+    },
+    "config": "Chosen Config (Hybrid RRF + LLM, budget=1600) [Test]",
+    "budget_chars": 1600,
+    "prompt_tokens": 7762,
+    "completion_tokens": 793,
+    "cost_usd": 0.00164,
+    "median_latency_ms": 3763.3
+  }
+}

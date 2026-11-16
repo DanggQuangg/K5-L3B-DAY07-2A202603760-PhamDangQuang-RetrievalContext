@@ -1,0 +1,346 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "According to the AI RMF, how is risk defined in the context of an AI system?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Risk refers to the composite measure of an event's probability of occurring and the magnitude or degree of the consequences of the corresponding event.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 9,
+        "evidence": "In the context of the AI RMF,risk refers to the composite measure of an event’s probability of occurring and the magnitude or degree of the consequences of the corresponding event."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What characteristics of trustworthy AI systems are articulated in the AI RMF?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 17,
+        "evidence": "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and trans- parent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How does the ISO 9000:2015 standard define the validation process for a system or application?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Validation is the confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 18,
+        "evidence": "Validation is the “confirmation, through the provision of objective evidence, that the re- quirements for a specific intended use or application have been fulfilled” (Source: ISO 9000:2015)."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Under what defined conditions is an AI system considered safe according to ISO/IEC TS 5723:2022?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "An AI system should not under defined conditions lead to a state in which human life, health, property, or the environment is endangered.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 19,
+        "evidence": "AI systems should “not under defined conditions, lead to a state in which human life, health, property, or the environment is endangered” (Source: ISO /IEC TS 5723:2022)."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What does transparency reflect regarding individuals interacting with an AI system?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Transparency reflects the extent to which information about an AI system and its outputs is available to individuals interacting with it, regardless of whether they are even aware that they are doing so.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 20,
+        "evidence": "Transparencyreflects the extent to which information about an AI system and its outputs is available to individuals interacting with such a system – regardless of whether they are even aware that they are doing so."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What are the three major categories of AI bias identified and managed by NIST?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Systemic bias, computational and statistical bias, and human-cognitive bias.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 23,
+        "evidence": "NIST has identified three major categories of AI bias to be considered and managed: systemic, computational and statistical, and human-cognitive."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What organizational policies and processes are required under the GOVERN 1 category?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Policies, processes, procedures, and practices across the organization related to mapping, measuring, and managing AI risks must be in place, transparent, and implemented effectively.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 27,
+        "evidence": "GOVERN 1: Policies, processes, procedures, and practices across the organization related to the mapping, measuring, and managing of AI risks are in place, transparent, and implemented effectively."
+      }
+    ],
+    "filter": {
+      "section": "govern"
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which four functions compose the AI RMF Core?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "GOVERN, MAP, MEASURE, and MANAGE.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 25,
+        "evidence": "the Core is composed of four functions: GOVERN , MAP, MEASURE , and MANAGE ."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Does an inability to properly measure AI risks imply that an AI system is inherently low risk or high risk?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "No. The inability to appropriately measure AI risks does not imply that an AI system necessarily poses either a high or low risk.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 10,
+        "evidence": "The inability to appropriately measure AI risks does not imply that an AI system necessarily poses either a high or low risk."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Does achieving transparency in an AI system automatically make it accurate, secure, or fair?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "No. A transparent system is not necessarily an accurate, privacy-enhanced, secure, or fair system.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 21,
+        "evidence": "A transparent system is not necessarily an accurate, privacy-enhanced, secure, or fair system."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What is the primary focus of the MAP 1 category within the AI RMF Core?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Context is established and understood.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 31,
+        "evidence": "MAP 1: Context is established and understood."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "How does the AI RMF distinguish explainability from interpretability?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Explainability refers to a representation of the mechanisms underlying AI systems' operation, whereas interpretability refers to the meaning of AI systems' output in the context of their designed functional purposes.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 21,
+        "evidence": "Explainability refers to a representation of the mechanisms underlying AI systems’ oper- ation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes."
+      }
+    ],
+    "filter": {
+      "section": "trustworthy_characteristics"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What are AI RMF use-case profiles and how are they implemented?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "They are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the user's requirements, risk tolerance, and resources.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 38,
+        "evidence": "AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What actions are required regarding legal and regulatory requirements under subcategory GOVERN 1.1?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Legal and regulatory requirements involving AI are understood, managed, and documented.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 27,
+        "evidence": "GOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented."
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "How does the AI RMF define an organization's risk tolerance?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Risk tolerance refers to the organization's readiness to bear the risk in order to achieve its objectives.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 12,
+        "evidence": "readiness to bear the risk in order to achieve its objectives."
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "According to Appendix B, how do risks from AI systems differ from traditional software risks?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "AI systems bring a set of risks that are not comprehensively addressed by current risk frameworks and approaches for traditional software.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 43,
+        "evidence": "AI systems also bring a set of risks that are not comprehensively addressed by current risk frameworks and approaches."
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What core responsibility does the MANAGE function entail regarding risk resources?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The MANAGE function entails allocating risk resources to mapped and measured risks on a regular basis and as defined by the GOVERN function.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 36,
+        "evidence": "The MANAGE function entails allocating risk resources to mapped and measured risks on a regular basis and as defined by the GOVERN function."
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In the MEASURE function, how should organizations prioritize the implementation of risk measurement metrics according to subcategory MEASURE 1.1?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Approaches and metrics for measurement of AI risks are selected for implementation starting with the most significant AI risks.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 34,
+        "evidence": "MEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for imple- mentation starting with the most significant AI risks."
+      }
+    ],
+    "filter": {
+      "section": "measure"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What best practice is recommended for separating AI actor roles in the AI Model dimension (Figure 3)?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Those building and using the models should be separated from those verifying and validating the models.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 16,
+        "evidence": "those building and using the models separated from those verifying and validating the models."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "According to Appendix C, how can organizations enhance their AI risk management in operational settings?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "By understanding the current limitations of human-AI interaction.",
+    "gold": [
+      {
+        "source_id": "nist_ai_rmf_1_0",
+        "page": 45,
+        "evidence": "Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of human- AI interaction."
+      }
+    ],
+    "filter": {
+      "section": "appendix"
+    }
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "What is the maximum monetary fine specified by NIST AI RMF 1.0 for non-compliance by private corporations?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "NIST AI RMF 1.0 is explicitly a voluntary, non-sector-specific framework and contains no regulatory enforcement mechanisms, statutory penalties, or monetary fines."
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "What minimum parameter count or compute threshold in FLOPs qualifies a foundation model as high-risk under AI RMF 1.0?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "NIST AI RMF 1.0 discusses risk context and socio-technical dimensions qualitatively; it does not set quantitative compute thresholds (such as 10^26 FLOPs) or parameter count cutoffs for high-risk classification."
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "What mandatory commercial licensing procedure must an organization complete with NIST prior to deploying an autonomous delivery drone?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "NIST is not a regulatory or licensing agency and AI RMF 1.0 does not grant licenses or mandate federal deployment permits for physical autonomous systems."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "What exact numerical score on the MMLU or HumanEval benchmarks is required by the MEASURE function to certify an LLM safety profile?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The MEASURE function provides guidance on qualitative and quantitative risk measurement methods, but does not specify benchmarks like MMLU/HumanEval or establish numerical passing score requirements."
+  }
+]

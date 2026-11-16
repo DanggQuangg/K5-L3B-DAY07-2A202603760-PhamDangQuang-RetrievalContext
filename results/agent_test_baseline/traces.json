@@ -1,0 +1,271 @@
+[
+  {
+    "query_id": "q16",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "Appendix B AI risks vs traditional software risks NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p43_c01"
+        ],
+        "context_chars": 756
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p43_c01"
+    ],
+    "answer": "Risks from AI systems differ from traditional software risks in that AI systems introduce a set of risks that are not comprehensively addressed by current risk frameworks and approaches. While both can lead to significant impacts, AI systems can also leverage features such as pre-trained models and transfer learning, which can enhance research and improve accuracy and resilience. This complexity necessitates a careful identification of contextual factors to assess the level of risk and management efforts effectively [nist_ai_rmf_1_0_B_p43_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p43_c01 | data/NIST_AI_100_1.pdf | page 43]\nAppendix B: How AI Risks Differ from Traditional Software Risks As with traditional software, risks from AI-based technology can be bigger than an en- terprise, span organizations, and lead to societal impacts. AI systems also bring a set of risks that are not comprehensively addressed by current risk frameworks and approaches. Some AI system features that present risks also can be beneficial. For example, pre-trained models and transfer learning can advance research and increase accuracy and resilience when compared to other models and approaches. Identifying contextual factors in theMAP function will assist AI actors in determining the level of risk and potential management efforts.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p43_c01"
+    ],
+    "elapsed_ms": 3834.5637999882456
+  },
+  {
+    "query_id": "q17",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "core responsibility MANAGE function risk resources NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "MANAGE function responsibilities NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "MANAGE function responsibilities risk resources NIST AI RMF 1.0",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "MANAGE function responsibilities NIST AI RMF 1.0 risk resources",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p25_c01"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 6970.593900012318
+  },
+  {
+    "query_id": "q18",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "MEASURE function risk measurement metrics subcategory MEASURE 1.1 NIST AI RMF 1.0",
+        "filter": {
+          "section": "measure"
+        },
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p34_c02"
+        ],
+        "context_chars": 771
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "query": "MEASURE 1.1 risk measurement metrics NIST AI RMF 1.0",
+        "filter": {
+          "section": "measure"
+        },
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p34_c02"
+        ],
+        "context_chars": 771
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "query": "MEASURE 1.1 risk measurement metrics prioritization NIST AI RMF 1.0",
+        "filter": {
+          "section": "measure"
+        },
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p34_c02"
+        ],
+        "context_chars": 771
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "query": "MEASURE 1.1 prioritization risk measurement metrics NIST AI RMF 1.0",
+        "filter": {
+          "section": "measure"
+        },
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p34_c02"
+        ],
+        "context_chars": 771
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 7307.171799999196
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "best practice separating AI actor roles AI Model dimension Figure 3",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p16_c01",
+          "nist_ai_rmf_1_0_B_p29_c04"
+        ],
+        "context_chars": 670
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p16_c01"
+    ],
+    "answer": "The recommended best practice for separating AI actor roles in the AI Model dimension is to ensure that those building and using the models are separated from those verifying and validating the models. This separation helps maintain integrity and accountability within the AI lifecycle [nist_ai_rmf_1_0_B_p16_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p16_c01 | data/NIST_AI_100_1.pdf | page 16]\nFig. 3. AI actors across AI lifecycle stages. See Appendix A for detailed descriptions of AI actor tasks, including details about testing, evaluation, verification, and validation tasks. Note that AI actors in the AI Model dimension (Figure 2) are separated as a best practice, with those building and using the models separated from those verifying and validating the models.\n\n[nist_ai_rmf_1_0_B_p29_c04 | data/NIST_AI_100_1.pdf | page 29]\nAs a result, the best intentions within one dimension of the AI lifecycle can be undermined via interactions with decisions and conditions in other, later activities.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p16_c01",
+      "nist_ai_rmf_1_0_B_p29_c04"
+    ],
+    "elapsed_ms": 3224.1229000210296
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "Appendix C AI risk management operational settings",
+        "filter": {
+          "section": "appendix"
+        },
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p45_c01"
+        ],
+        "context_chars": 777
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "nist_ai_rmf_1_0_B_p45_c01"
+    ],
+    "answer": "Organizations can enhance their AI risk management in operational settings by understanding the current limitations of human-AI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems. It is important to recognize that many data-driven approaches used by AI systems attempt to convert complex human phenomena into measurable quantities, which may lead to the loss of necessary context [nist_ai_rmf_1_0_B_p45_c01].",
+    "context": "[nist_ai_rmf_1_0_B_p45_c01 | data/NIST_AI_100_1.pdf | page 45]\nAppendix C: AI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of human- AI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems. Many of the data-driven approaches that AI systems rely on attempt to convert or represent individual and social observational and decision-making practices into measurable quanti- ties. Representing complex human phenomena with mathematical models can come at the cost of removing necessary context.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p45_c01"
+    ],
+    "elapsed_ms": 4498.373399983393
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "mandatory commercial licensing NIST autonomous delivery drone",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p08_c02"
+        ],
+        "context_chars": 613
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[nist_ai_rmf_1_0_B_p08_c02 | data/NIST_AI_100_1.pdf | page 8]\nAdditional resources related to the Framework are included in the AI RMF Playbook, which is available via the NIST AI RMF website: https://www.nist.gov/itl/ai-risk-management-framework. Development of the AI RMF by NIST in collaboration with the private and public sec- tors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the National Security Commission on Artificial Intelligence recom- mendations, and the Plan for Federal Engagement in Developing Technical Standards and Related Tools.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p08_c02"
+    ],
+    "elapsed_ms": 2226.1778000101913
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "query": "MMLU HumanEval benchmarks MEASURE function LLM safety profile certification requirements",
+        "filter": null,
+        "results_count": 3,
+        "context_ids": [
+          "nist_ai_rmf_1_0_B_p20_c01"
+        ],
+        "context_chars": 724
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "citations": [],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[nist_ai_rmf_1_0_B_p20_c01 | data/NIST_AI_100_1.pdf | page 20]\nEmploying safety considerations during the lifecycle and starting as early as possible with planning and design can prevent failures or conditions that can render a system dangerous. Other practical approaches for AI safety often relate to rigorous simulation and in-domain testing, real-time monitoring, and the ability to shut down, modify, or have human inter- vention into systems that deviate from intended or expected functionality. AI safety risk management approaches should take cues from efforts and guidelines for safety in fields such as transportation and healthcare, and align with existing sector- or application-specific guidelines or standards.",
+    "context_ids": [
+      "nist_ai_rmf_1_0_B_p20_c01"
+    ],
+    "elapsed_ms": 3887.2573999979068
+  }
+]

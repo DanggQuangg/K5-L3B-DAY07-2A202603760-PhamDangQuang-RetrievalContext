@@ -1,0 +1,118 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer addresses the question partially or lacks some conditions."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "Agent abstained on an answerable question."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correctly abstained: NIST AI RMF 1.0 is explicitly a voluntary, non-sector-specific framework and contains no regulatory enforcement mechanisms, statutory penalties, or monetary fines."
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correctly abstained: NIST AI RMF 1.0 discusses risk context and socio-technical dimensions qualitatively; it does not set quantitative compute thresholds (such as 10^26 FLOPs) or parameter count cutoffs for high-risk classification."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer addresses the question partially or lacks some conditions."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Answer accurately conveys the expected facts with valid citations."
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correctly abstained: NIST is not a regulatory or licensing agency and AI RMF 1.0 does not grant licenses or mandate federal deployment permits for physical autonomous systems."
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correctly abstained: The MEASURE function provides guidance on qualitative and quantitative risk measurement methods, but does not specify benchmarks like MMLU/HumanEval or establish numerical passing score requirements."
+  }
+]

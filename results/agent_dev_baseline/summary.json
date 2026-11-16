@@ -1,0 +1,37 @@
+{
+  "cases": 17,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 17,
+    "N": 17
+  },
+  "grounded_answer": {
+    "0": 8,
+    "1": 1,
+    "2": 6,
+    "N": 15,
+    "mean": 0.8666666666666667
+  },
+  "citation_validity": {
+    "n": 7,
+    "N": 7
+  },
+  "answer_citation_coverage": {
+    "n": 7,
+    "N": 7
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 8,
+    "N": 15
+  },
+  "config": "Baseline (TF-IDF + LLM, budget=800)",
+  "budget_chars": 800,
+  "prompt_tokens": 28249,
+  "completion_tokens": 1952,
+  "cost_usd": 0.00541,
+  "median_latency_ms": 4437.4
+}
